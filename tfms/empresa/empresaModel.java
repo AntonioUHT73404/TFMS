@@ -1,14 +1,9 @@
+package tfms.empresa;
 
 public class Empresa {
 
 	private int codigo;
 	private String nome;
-
-	public Empresa() {
-		setCodigo(0);
-		String nome;
-				
-	}
 
 	public int getCodigo() {
 		return codigo;
@@ -26,6 +21,9 @@ public class Empresa {
 		this.nome = nome;
 	}
 	
-	
-
+	public Empresa() {
+		setCodigo(0);
+		String nome;
+				
+	}
 }
