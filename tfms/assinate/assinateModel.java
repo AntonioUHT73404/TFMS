@@ -1,6 +1,6 @@
 package tfms.assinate;
 
-public class Assinante {
+public class AssinanteModel {
 
 	private int codigo;
 	private int assinatura;

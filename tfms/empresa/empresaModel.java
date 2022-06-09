@@ -1,6 +1,6 @@
 package tfms.empresa;
 
-public class Empresa {
+public class EmpresaModel {
 
 	private int codigo;
 	private String nome;
@@ -23,7 +23,5 @@ public class Empresa {
 	
 	public Empresa() {
 		setCodigo(0);
-		String nome;
-				
 	}
 }
