@@ -3,7 +3,7 @@ package tfms.valores;
 public class ValorsModel {
      
      private int codigo;
-     private String nome;
+     private float valor;
 
      public int getCodigo() {
 		return codigo;
@@ -13,16 +13,16 @@ public class ValorsModel {
 		this.codigo = codigo;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getValor() {
+		return valor;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setValor(float valor) {
+		this.valor = valor;
 	}
 
-     public ValorsModel(int codigo, String nome) { 
+     public ValorsModel(int codigo, float valor) { 
           setCodigo(codigo);
-          setNome(nome);
+          setValor(valor);
      }
 }
