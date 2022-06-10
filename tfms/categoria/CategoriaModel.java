@@ -9,7 +9,7 @@ public class CategoriaModel extends ValoresModel, TipoModel{
 
      TipoModel tipo = new TipoModel();
 
-     ValoresModel valor = ValoresModel();
+     ValoresModel valor = new ValoresModel();
 
      public getCodigo() { 
           return codigo; 
