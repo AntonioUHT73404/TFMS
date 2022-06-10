@@ -1,7 +1,6 @@
+package tfms.assinate;
 
-public class Assinante {
-	
-	
+public class AssinanteModel {
 
 	private int codigo;
 	private int assinatura;
@@ -10,16 +9,6 @@ public class Assinante {
 	private String email;
 	private String telefone;
 
-	public Assinante() {
-		// TODO Auto-generated constructor stub
-		assinatura = new Assinatura(codigo); // Chamada da classe Assinatura.
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-	
 	private int getCodigo() {
 		return codigo;
 	}
@@ -68,4 +57,7 @@ public class Assinante {
 		this.telefone = telefone;
 	}
 
+	public Assinante() {
+		assinatura = new Assinatura(codigo);
+	}
 }
