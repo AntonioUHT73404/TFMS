@@ -1,58 +1,55 @@
 package tfms.categoria;
 
-import tfms.tipo;
-import tfms.valores;
+import tfms.tipo.TipoModel;
+import tfms.valores.ValoresModel;
 
-public class CategoriaModel extends ValoresModel, TipoModel{
+public class CategoriaModel {
 
      private int codigo;
 
      TipoModel tipo = new TipoModel();
 
-     ValoresModel valor = new ValoresModel();
+     ValoresModel preco = new ValoresModel();
 
-     public getCodigo() { 
-          return codigo; 
+     public int getCodigo() {
+          return codigo;
      }
 
-     public setCodigo(int codigo) { 
+     public void setCodigo(int codigo) {
           this.codigo = codigo;
      }
 
-     public getTipoCodigo() {
+     public int getCodigoTipo() {
           return tipo.getCodigo();
      }
 
-     public setTipoCodigo(int codigo) { 
+     public void setCodigoTipo( int codigo) {
           tipo.setCodigo(codigo);
      }
 
-     public getValorCodigo() {
-          return valor.getCodigo();
+     public String getNome() {
+          return tipo.getNome();
      }
 
-     public setValorCodigo(int codigo) { 
-          valor.setCodigo(codigo);
+     public void setNome( String nome) {
+          tipo.setNome(nome);
      }
 
-     public setPreco(float valor) {
-          super.setValor(valor);
+     public int getCodigoPreco() {
+          return preco.getCodigo();
      }
 
-     public getNome() {
-          return super.getNome();
+     public void setCodigoPreco( int codigo) {
+          preco.setCodigo(codigo);
      }
 
-     public setNome(String nome) {
-          super.setNome(nome);
+     public float getPreco() {
+          return preco.getValor();
      }
 
-     public getPreco() {
-          return super.getValor();
+     public void setPreco( float valor) {
+          preco.setValor(valor);
      }
 
-     public CategoriaModel(String tipo, float valor) {
-          setNome(tipo);
-          setPreco(valor);
-     }
+     public CategoriaModel() {}
 }

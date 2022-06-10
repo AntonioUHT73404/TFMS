@@ -7,7 +7,6 @@ public class Assinatura extends Assinante {
 	
 
 	public Assinatura() {
-		// TODO Auto-generated constructor stub
 		
 	}
 
