@@ -1,4 +1,4 @@
-package tfms.assinate;
+package tfms.assinante;
 
 public class AssinanteModel {
 
