@@ -1,6 +1,6 @@
 package tfms.tipo;
 
-public class VTipoModel {
+public class TipoModel {
      
      private int codigo;
      private String nome;
@@ -21,7 +21,11 @@ public class VTipoModel {
 		this.nome = nome;
 	}
 
-     public ValorsModel(int codigo, String nome) { 
+	public TipoModel() {
+		
+	}
+
+     public TipoModel(int codigo, String nome) { 
           setCodigo(codigo);
           setNome(nome);
      }

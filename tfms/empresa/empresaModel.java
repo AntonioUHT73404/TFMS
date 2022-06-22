@@ -21,7 +21,7 @@ public class EmpresaModel {
 		this.nome = nome;
 	}
 	
-	public Empresa() {
+	public EmpresaModel() {
 		setCodigo(0);
 	}
 }

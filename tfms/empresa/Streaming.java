@@ -1,11 +1,13 @@
-package tfms;
+package tfms.empresa;
+
+import tfms.categoria.CategoriaModel;
 
 public class Streaming {
 	private int codigo;
-	private Categoria categoria;
+	private CategoriaModel categoria;
 		
 	
-	public Streaming(int codigo, Categoria categoria) {
+	public Streaming(int codigo, CategoriaModel categoria) {
 		this.codigo = codigo;
 		this.categoria = categoria;
 	}
@@ -21,12 +23,12 @@ public class Streaming {
 	}
 
 
-	public Categoria getCategoria() {
+	public CategoriaModel getCategoria() {
 		return categoria;
 	}
 
 
-	public void setCategoria(Categoria categoria) {
+	public void setCategoria(CategoriaModel categoria) {
 		this.categoria = categoria;
 	}
 	
