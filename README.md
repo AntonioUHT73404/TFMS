@@ -16,4 +16,4 @@ Uma empresa de telecomunicações possui serviços de linha de telefonia móvel,
 
 Adicionalmente, a empresa oferece um desconto de 5% no custo total da fatura mensal para cada serviço adicional que for agregado ao pacote mensal. Assim, caso o cliente possua dois serviços mensais, terá 5% de desconto e com três serviços mensais terá 10% de desconto sobre a conta mensal, o que inclui também eventuais custos do serviço de streaming de filmes.
 
-![Diagrama de Classe](/doc/digrama_de_classe_V0.2.1.png)
+![Diagrama de Classe](/.doc/digrama_de_classe_V0.2.1.png)
